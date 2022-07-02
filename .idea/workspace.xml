@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d71b10ba-60a6-46cf-820f-467a2c28d7a5" name="Changes" comment="challenge 2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/minmaxsum/MinMaxSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/minmaxsum/MinMaxSumTest.java" afterDir="false" />
+    <list default="true" id="d71b10ba-60a6-46cf-820f-467a2c28d7a5" name="Changes" comment="challenge 3">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/utils/ISort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/utils/MergeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,6 +71,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.utils" />
       <recent name="com.minmaxsum" />
       <recent name="com.plusminus" />
     </key>
@@ -81,7 +82,30 @@
       <command value="gradle build" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.MinMaxSumTest">
+  <component name="RunManager" selected="Gradle.MergeSortTest">
+    <configuration name="MergeSortTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.utils.MergeSortTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="MinMaxSumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -96,29 +120,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;com.minmaxsum.MinMaxSumTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="MinMaxSumTest.MinMaxSumTest_borderDown" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.minmaxsum.MinMaxSumTest.MinMaxSumTest_borderDown&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -197,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MergeSortTest" />
+        <item itemvalue="Gradle.Tests in 'hackerrank.test'" />
         <item itemvalue="Gradle.MinMaxSumTest" />
         <item itemvalue="Gradle.MinMaxSumTest.MixSumTest3" />
-        <item itemvalue="Gradle.Tests in 'hackerrank.test'" />
         <item itemvalue="Gradle.MinMaxSumTest.MixSumTest" />
-        <item itemvalue="Gradle.MinMaxSumTest.MinMaxSumTest_borderDown" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656113147316</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="challenge 3">
+      <created>1656623040647</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1656623040647</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -237,7 +245,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="challenge 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="challenge 2" />
+    <MESSAGE value="challenge 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="challenge 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
