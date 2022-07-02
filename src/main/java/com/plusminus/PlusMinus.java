@@ -9,7 +9,6 @@ public class PlusMinus {
     public static void plusMinus(ArrayList<Integer> inputArray) {
         double n = inputArray.size();
         int neg = 0, pos = 0, zeros = 0;
-        double value;
 
         for (var item : inputArray
         ) {

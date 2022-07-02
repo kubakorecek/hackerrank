@@ -1,23 +1,13 @@
 package com.plusminus;
 
-import com.arrays2d.Arrays2D;
-import org.junit.After;
-import org.junit.Before;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.mockito.Mockito;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.List;
-
-import static org.junit.Assert.assertEquals;
-import static org.mockito.Mockito.doNothing;
-
-
-
 
 
 public class PlusMinusTest {
@@ -43,7 +33,6 @@ public class PlusMinusTest {
     @Test
     void plusMinusTest()
     {
-        List<Double> expectedResult = List.of(0.500000, 0.333333, 0.166667);
         ArrayList<Integer> inputArray = new ArrayList<>();
         inputArray.add(-4);
         inputArray.add(3);

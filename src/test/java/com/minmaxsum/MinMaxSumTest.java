@@ -12,12 +12,12 @@ import java.util.List;
 
 public class MinMaxSumTest {
 
-    List<Integer> inputArray = List.of(1, 3, 5, 7, 9);
+    final List<Integer> inputArray = List.of(1, 3, 5, 7, 9);
 
-    List<Integer> inputArray2 = List.of(1, 2, 3, 4 ,5);
-    List<Integer> inputExDown = List.of(1, 3, 5, 7, 9, 0);
+    final List<Integer> inputArray2 = List.of(1, 2, 3, 4 ,5);
+    final List<Integer> inputExDown = List.of(1, 3, 5, 7, 9, 0);
 
-    List<Integer> inputArray3 = List.of(256741038, 623958417, 467905213, 714532089, 938071625);
+    final List<Integer> inputArray3 = List.of(256741038, 623958417, 467905213, 714532089, 938071625);
     Double a = Math.pow(10.0,10.0);
     List<Integer> inputExUp = List.of(1, 3, 5, 7, 9, a.intValue());
 

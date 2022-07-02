@@ -24,7 +24,7 @@ public class MinMaxSum {
                 min = item;
             }
         }
-        System.out.println("%d %d".formatted(sum - max, sum - min));
+        System.out.printf("%d %d%n", sum - max, sum - min);
 
     }
 

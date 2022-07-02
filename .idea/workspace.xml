@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d71b10ba-60a6-46cf-820f-467a2c28d7a5" name="Changes" comment="challenge 3">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/utils/ISort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/utils/MergeSort.java" afterDir="false" />
+    <list default="true" id="d71b10ba-60a6-46cf-820f-467a2c28d7a5" name="Changes" comment="adding insertion sort">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/utils/sorting/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/utils/sorting/InsertionSortTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils/ISort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utils/sorting/ISort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utils/sorting/MergeSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +73,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.utils.sorting" />
       <recent name="com.utils" />
       <recent name="com.minmaxsum" />
       <recent name="com.plusminus" />
@@ -82,7 +85,30 @@
       <command value="gradle build" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.MergeSortTest">
+  <component name="RunManager" selected="Gradle.InsertionSortTest">
+    <configuration name="InsertionSortTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.utils.sorting.InsertionSortTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="MergeSortTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -120,29 +146,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;com.minmaxsum.MinMaxSumTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="MinMaxSumTest.MixSumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.minmaxsum.MinMaxSumTest.MixSumTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -198,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MergeSortTest" />
+        <item itemvalue="Gradle.InsertionSortTest" />
         <item itemvalue="Gradle.Tests in 'hackerrank.test'" />
+        <item itemvalue="Gradle.MergeSortTest" />
         <item itemvalue="Gradle.MinMaxSumTest" />
         <item itemvalue="Gradle.MinMaxSumTest.MixSumTest3" />
-        <item itemvalue="Gradle.MinMaxSumTest.MixSumTest" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656623040647</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="adding merge sort">
+      <created>1656777610483</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656777610483</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -246,20 +256,17 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="challenge 2" />
     <MESSAGE value="challenge 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="challenge 3" />
+    <MESSAGE value="adding merge sort" />
+    <MESSAGE value="adding insertion sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding insertion sort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/plusminus/PlusMinus.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/minmaxsum/MinMaxSum.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/utils/sorting/MergeSort.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
