@@ -10,7 +10,7 @@ public class MergeSort<T extends Number> implements ISort<T> {
         if (start >= end) {
             return;
         }
-        int q = start + ((end - start) / 2);
+        int q = ((end + start) / 2);
         _sort(arr, start, q);
         _sort(arr, q + 1, end);
         merge(arr, start, q, end);

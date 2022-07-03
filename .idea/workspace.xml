@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d71b10ba-60a6-46cf-820f-467a2c28d7a5" name="Changes" comment="adding insertion sort">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/utils/sorting/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/utils/sorting/InsertionSortTest.java" afterDir="false" />
+    <list default="true" id="d71b10ba-60a6-46cf-820f-467a2c28d7a5" name="Changes" comment="adding refactor">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/time/TimeConversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/utils/datastructure/trees/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/utils/datastructure/trees/INode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/utils/datastructure/trees/ITrees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/utils/datastructure/trees/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/time/TimeConversionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils/ISort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utils/sorting/ISort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utils/sorting/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/utils/sorting/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/utils/sorting/MergeSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +37,17 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="hackerrank" type="f1a62948:ProjectNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hackerrank" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hackerrank" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -44,6 +58,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -73,6 +88,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.time" />
       <recent name="com.utils.sorting" />
       <recent name="com.utils" />
       <recent name="com.minmaxsum" />
@@ -85,7 +101,7 @@
       <command value="gradle build" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.InsertionSortTest">
+  <component name="RunManager" selected="Gradle.TimeConversionTest.timeConversionTest">
     <configuration name="InsertionSortTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -109,7 +125,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MergeSortTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MergeSortTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -122,53 +138,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.utils.MergeSortTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="MinMaxSumTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.minmaxsum.MinMaxSumTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="MinMaxSumTest.MixSumTest3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.minmaxsum.MinMaxSumTest.MixSumTest3&quot;" />
+            <option value="&quot;com.utils.sorting.MergeSortTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -199,13 +169,57 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="TimeConversionTest.timeConversionTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.time.TimeConversionTest.timeConversionTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="hackerrank [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.InsertionSortTest" />
+        <item itemvalue="Gradle.TimeConversionTest.timeConversionTest" />
+        <item itemvalue="Gradle.hackerrank [build]" />
+        <item itemvalue="Gradle.MergeSortTest (1)" />
         <item itemvalue="Gradle.Tests in 'hackerrank.test'" />
-        <item itemvalue="Gradle.MergeSortTest" />
-        <item itemvalue="Gradle.MinMaxSumTest" />
-        <item itemvalue="Gradle.MinMaxSumTest.MixSumTest3" />
+        <item itemvalue="Gradle.InsertionSortTest" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656777610483</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="adding refactor">
+      <created>1656798950874</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1656798950874</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -258,7 +279,8 @@
     <MESSAGE value="challenge 3" />
     <MESSAGE value="adding merge sort" />
     <MESSAGE value="adding insertion sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding insertion sort" />
+    <MESSAGE value="adding refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding refactor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -267,6 +289,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/utils/sorting/MergeSort.java</url>
           <line>38</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/utils/sorting/MergeSort.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/time/TimeConversion.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
