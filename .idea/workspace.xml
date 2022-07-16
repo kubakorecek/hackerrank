@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d71b10ba-60a6-46cf-820f-467a2c28d7a5" name="Changes" comment="using hashigh algorithm for strings to compare them....">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strings/hash/SparseArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/data/Queries4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/data/Result4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/data/Strings4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/strings/hash/SparseArrayTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="d71b10ba-60a6-46cf-820f-467a2c28d7a5" name="Changes" comment="using hashig algorithm for strings to compare them....">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/integers/LonelyInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/integers/LonelyIntegerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/time/TimeConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/time/TimeConversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/time/TimeConversionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/time/TimeConversionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/strings/hash/SparseArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/strings/hash/SparseArrayTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,12 +39,6 @@
                 <item name="hackerrank" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="hackerrank" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -77,32 +66,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/kubak/IdeaProjects/hackerrank/src/main/java/com/plusminus&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/kubak/IdeaProjects/hackerrank&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_directory_selection": "C:/Users/kubak/IdeaProjects/hackerrank/src/main/java/com/plusminus",
+    "last_opened_file_path": "C:/Users/kubak/IdeaProjects/hackerrank",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.integers" />
       <recent name="com.time" />
       <recent name="com.utils.sorting" />
       <recent name="com.utils" />
       <recent name="com.minmaxsum" />
-      <recent name="com.plusminus" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\kubak\IdeaProjects\hackerrank\src\test\data" />
@@ -114,8 +103,31 @@
       <command value="gradle build" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.SparseArrayTest">
-    <configuration name="SparseArrayTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.LonelyIntegerTest">
+    <configuration name="LonelyIntegerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--info" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.integers.LonelyIntegerTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="LonelyIntegerTest.lonelyIntegerSampleCaseTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -128,7 +140,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.strings.hash.SparseArrayTest&quot;" />
+            <option value="&quot;com.integers.LonelyIntegerTest.lonelyIntegerSampleCaseTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -138,7 +150,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SparseArrayTest.testBasic" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MergeSortTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -151,7 +163,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.strings.hash.SparseArrayTest.testBasic&quot;" />
+            <option value="&quot;com.utils.sorting.MergeSortTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -161,30 +173,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SparseArrayTest.testBasic4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--stacktrace" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.strings.hash.SparseArrayTest.testBasic4&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="TimeConversionTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MergeSortTest.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -197,7 +186,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.time.TimeConversionTest&quot;" />
+            <option value="&quot;com.utils.sorting.MergeSortTest.test&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -207,34 +196,29 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="hackerrank [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
+    <configuration name="LonelyIntegerTest.lonelyIntegerSampleCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hackerrank.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.integers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.integers" />
+      <option name="MAIN_CLASS_NAME" value="com.integers.LonelyIntegerTest" />
+      <option name="METHOD_NAME" value="lonelyIntegerSampleCase" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.SparseArrayTest" />
-        <item itemvalue="Gradle.hackerrank [build]" />
-        <item itemvalue="Gradle.SparseArrayTest.testBasic4" />
-        <item itemvalue="Gradle.SparseArrayTest.testBasic" />
-        <item itemvalue="Gradle.TimeConversionTest" />
+        <item itemvalue="Gradle.LonelyIntegerTest" />
+        <item itemvalue="Gradle.MergeSortTest" />
+        <item itemvalue="Gradle.LonelyIntegerTest.lonelyIntegerSampleCaseTest" />
+        <item itemvalue="Gradle.MergeSortTest.test" />
+        <item itemvalue="JUnit.LonelyIntegerTest.lonelyIntegerSampleCase" />
       </list>
     </recent_temporary>
   </component>
@@ -249,7 +233,9 @@
       <workItem from="1656978783864" duration="909000" />
       <workItem from="1657016982518" duration="1743000" />
       <workItem from="1657319479062" duration="2941000" />
-      <workItem from="1657379040180" duration="7455000" />
+      <workItem from="1657379040180" duration="7977000" />
+      <workItem from="1657409647901" duration="2212000" />
+      <workItem from="1657989859984" duration="3511000" />
     </task>
     <task id="LOCAL-00001" summary="challenge 2">
       <created>1656113147316</created>
@@ -286,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656880007042</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="using hashigh algorithm for strings to compare them....">
+      <created>1657402648552</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657402648552</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,23 +315,13 @@
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/utils/sorting/MergeSort.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/time/TimeConversion.java</url>
           <line>28</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/time/TimeConversion.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/strings/hash/SparseArrayTest.java</url>
-          <line>93</line>
+          <line>77</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -348,11 +331,30 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/strings/hash/SparseArrayTest.java</url>
-          <line>89</line>
+          <line>73</line>
           <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/integers/LonelyInteger.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/integers/LonelyIntegerTest.java</url>
+          <line>10</line>
+          <properties class="com.integers.LonelyIntegerTest" method="lonelyIntegerSampleCaseTest">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="GradleRunConfiguration">
+        <watch expression="_tmpArray.get(4)" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -29,7 +29,7 @@ public class SparseArrayTest {
     @Test
     void testBasic2()
     {
-        List<Integer> expectedResult = List.of(1, 0, 1);;
+        List<Integer> expectedResult = List.of(1, 0, 1);
         ArrayList<Integer> inputArray;
         List<String> strings = List.of("def", "de", "fgh");
         List<String> queries =  List.of("de", "lmn", "fgh");
@@ -40,7 +40,7 @@ public class SparseArrayTest {
     @Test
     void testBasic1()
     {
-        List<Integer> expectedResult = List.of(2, 1, 0);;
+        List<Integer> expectedResult = List.of(2, 1, 0);
         ArrayList<Integer> inputArray;
         List<String> strings = List.of("aba", "baba", "aba","xzxb");
         List<String> queries =  List.of("aba", "xzxb", "ab");
@@ -51,7 +51,7 @@ public class SparseArrayTest {
     @Test
     void testBasic3()
     {
-        List<Integer> expectedResult = List.of(1, 3, 4,3,2);;
+        List<Integer> expectedResult = List.of(1, 3, 4,3,2);
         ArrayList<Integer> inputArray;
         List<String> strings = List.of("abcde", "sdaklfj", "asdjf","na",
                "basdn","sdaklfj", "asdjf","na",
@@ -74,7 +74,7 @@ public class SparseArrayTest {
         expectedResultStr.stream()
                 .map(Integer::parseInt)
                 .collect(Collectors.toList());
-      
+
         Assertions.assertEquals (expectedResult, SparseArray.matchingStrings(
                 strings,  queries));
     }
